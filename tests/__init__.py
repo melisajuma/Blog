@@ -9,7 +9,7 @@ class BlogTest(unittest.TestCase):
         self.new_blog = Blog(id=40, title='New Blog', content='This is the content',
                              category='Travel', posted=datetime.now())
 
-    def tearDown(self):
+    def tearDown>(self):
         db.session.delete(self.new_blog)
         db.session.commit()
 
