@@ -138,11 +138,11 @@ else
     echo "README not created"
 fi
 
-# Creating Root> folders
+# Creating Root folders
 mkdir app tests
 touch config.py manage.py start.sh requirements.txt
 
-# make script executable
+# make script >executable
 chmod +x start.sh
 
 # populating config file
