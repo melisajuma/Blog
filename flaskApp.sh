@@ -142,10 +142,10 @@ fi
 mkdir app tests
 touch config.py manage.py start.sh requirements.txt
 
-# make script >executable
+# make script executable
 chmod +x start.sh
 
-# populating config file
+# populating >config file
 cat >> config.py << EOF
 
 class Config:
