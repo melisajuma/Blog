@@ -1,15 +1,15 @@
 # Blog
 
-## Author
+    Author
 
-**Melisa JUma**
+    Melisa JUma
 
 ## Description
 
 Blog is an app suited for users interested in blog posts in various fields, sports, travelling, Fashion, Food or even Politics. The app enables the user to view posts, make comments, like or dislike them. For all this to happen they have to first sign in with their accounts  or sign up for the first time users.
 
 ## Setup/Installation Requirements
-## Prerequisites
+
 * Python3.6
 * Virtual
 
