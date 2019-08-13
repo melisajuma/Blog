@@ -127,7 +127,7 @@ virt/
 
 EOF
 
-# Initializing> Readme
+# Initializing Readme
 echo "should i create a README? y/n"
 read ANSWER
 
@@ -138,7 +138,7 @@ else
     echo "README not created"
 fi
 
-# Creating Root folders
+# Creating Root> folders
 mkdir app tests
 touch config.py manage.py start.sh requirements.txt
 
