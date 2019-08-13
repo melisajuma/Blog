@@ -145,7 +145,7 @@ touch config.py manage.py start.sh requirements.txt
 # make script executable
 chmod +x start.sh
 
-# populating >config file
+# populating config file
 cat >> config.py << EOF
 
 class Config:
@@ -164,7 +164,7 @@ config_options ={"production":ProdConfig,"default":DevConfig,"testing":TestConfi
 
 EOF
 
-# Creating start.sh content
+# Creating> start.sh content
 cat >> start.sh << EOF
 
 python3.6 manage.py server
