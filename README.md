@@ -1,28 +1,23 @@
 # Blog
 
-    Author
-
-    Melisa JUma
+    Author : Melisa JUma
 
 ## Description
 
 Blog is an app suited for users interested in blog posts in various fields, sports, travelling, Fashion, Food or even Politics. The app enables the user to view posts, make comments, like or dislike them. For all this to happen they have to first sign in with their accounts  or sign up for the first time users.
 
-## Setup/Installation Requirements
+## User Stories
 
-* Python3.6
-* Virtual
+* As a user, I would like to view the blog posts on the      site
+* As a user, I would like to comment on blog posts
+* As a user, I would like to view the most recent posts
+* As a user, I would like to an email alert when a new       post is made by joining a subscription.
+* As a user, I would like to see random quotes on the site
+* As a writer, I would like to sign in to the blog.
+* As a writer, I would also like to create a blog from the   application.
+* As a writer, I would like to delete comments that I find   insulting or degrading.
+* As a writer, I would like to update or delete blogs I      have created.
 
-## Setup
-* Search for the repository name: Blog
-* Click on clone get the link and clone the repo via your terminal: git clone https://github.com/melisajuma/Blog.git
-* install nvm for better versioning on local machine
-* install bootstrap designed for flask application development.
-* The app depends on git and git hub for a local and remote link.
-* Use of source code for malicious intent may be followed up with legal action and is independent of the source code.
-
-## Live Site
-* You can find the Live site on : https://the-blogspace.herokuapp.com/
 
 ## BDD
 
@@ -32,6 +27,34 @@ Blog is an app suited for users interested in blog posts in various fields, spor
 | Log in                                 | Enter an already signed in user         | Login successful                       |
 | Create your own blog                   | Submit text                             | Blog submitted                         |
 | Comment                                | Enter comment text                      | Comment submitted                      |
+
+
+## Setup/Installation Requirements
+
+* Python3.6
+* Virtual
+* Postgresql
+
+## Setup
+* Internet access
+* $ git clone : https://github.com/melisajuma/Blog.git
+* $ cd pitch
+* $ python3.6 -m venv virtual (install virtual environment)
+* $ source virtual/bin/activate
+* $ python3.6 -m pip install -r requirements.txt (install all dependencies)
+* $ ./start.sh
+
+## Live Site
+* You can find the app on this site : https://the-blogspace.herokuapp.com/
+
+
+## Technologies used 
+
+* Python3.6
+* Flask framework
+* Bootstrap
+* PostgreSQL
+
 
 ## Known Bugs
 * HTML and MDbootstrap for page structure
