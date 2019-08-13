@@ -1,4 +1,4 @@
-## Blog
+# Blog
 
 ## Author
 
@@ -6,8 +6,7 @@
 
 ## Description
 
-A personal blog website where you can create and share your posts and other users can read them
-User Stories
+Blog is an app suited for users interested in blog posts in various fields, sports, travelling, Fashion, Food or even Politics. The app enables the user to view posts, make comments, like or dislike them. For all this to happen they have to first sign in with their accounts  or sign up for the first time users.
 
 ## Setup/Installation Requirements
 ## Prerequisites
@@ -15,12 +14,15 @@ User Stories
 * Virtual
 
 ## Setup
-* Search for the repository name
-* Click on clone get the link and clone the repo via your terminal
+* Search for the repository name: Blog
+* Click on clone get the link and clone the repo via your terminal: git clone https://github.com/melisajuma/Blog.git
 * install nvm for better versioning on local machine
 * install bootstrap designed for flask application development.
 * The app depends on git and git hub for a local and remote link.
 * Use of source code for malicious intent may be followed up with legal action and is independent of the source code.
+
+## Live Site
+* You can find the Live site on : https://the-blogspace.herokuapp.com/
 
 ## BDD
 
@@ -41,7 +43,7 @@ User Stories
 ## Support and contact details
 In case of any bugs or questions please contact me:
 
-* email: MelisaJUma95@gmail.com
+* email: Melisaakinyi95@gmail.com
 
 ## License
 [MIT Copyright (c) {2019}](./License)
