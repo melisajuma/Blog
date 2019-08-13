@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-# Creating >new app
+# Creating new app
 
 
 # Initializing  git
@@ -127,7 +127,7 @@ virt/
 
 EOF
 
-# Initializing Readme
+# Initializing> Readme
 echo "should i create a README? y/n"
 read ANSWER
 
