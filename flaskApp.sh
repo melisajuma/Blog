@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-# Creating new app
+# Creating >new app
 
 
 # Initializing  git
