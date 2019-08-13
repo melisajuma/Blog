@@ -1,0 +1,4 @@
+chmod a+x start.sh
+python3 manager.py test
+
+virtualenv -p python3 virtual
